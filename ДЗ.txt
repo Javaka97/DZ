@@ -1,0 +1,52 @@
+package daria.tikhomirova;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+//import java.util.mInfoTextView;
+
+
+public class Main {
+
+    public static void main(String[] args) {
+        task1();
+    }
+
+    public static void task1() {
+        ArrayList<String> arraylist = new ArrayList<String>();
+        arraylist.add("Murzik");
+        arraylist.add("Murzik");
+        arraylist.add("Murzik");
+        arraylist.add("Murzik");
+        arraylist.add("Vaska");
+        arraylist.add("Vaska");
+        arraylist.add("Vaska");
+        arraylist.add("Vaska");
+        arraylist.add("Vaska");
+        arraylist.add("Murka");
+        arraylist.add("Murka");
+        arraylist.add("Murka");
+        arraylist.add("Murka");
+        arraylist.add("Murka");
+        arraylist.add("Barsik");
+        arraylist.add("Barsik");
+        arraylist.add("Barsik");
+        arraylist.add("Barsik");
+        arraylist.add("Barsik");
+
+        System.out.println(arraylist);
+        /*for (String s: set){
+
+            if (Collections.frequency(set,s)>1)       //Методом из статичного класса мы проверяем сколько раз встречался
+                if(!dublicates.contains(s) {            //определенный элемент в коллекции, если больше одного раза то мы проверяем, не содержится ли он dublicates, если нет то добавляем этот элемент в дубликаты.
+                dublicates.add(s);
+            }
+        }
+        */
+        //public static void task01(){
+            //HashSet<String> set = new Hashset<>();
+
+
+   // }
+
+    }
+}
